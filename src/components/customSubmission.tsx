@@ -1,7 +1,7 @@
 import type {TSubmission} from "../models/TSubmission.ts";
 import "./submission.css"
 
-const IMG_PATH = `/user/`
+const IMG_PATH = `user/`
 
 const customSubmission =  ({item}: {item:TSubmission}) => {
   const {name, image, message} = item
