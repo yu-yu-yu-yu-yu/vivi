@@ -8,7 +8,7 @@ const customSubmission =  ({item}: {item:TSubmission}) => {
 
 return  <div className="submission customSubmission">
     <span className={"submissionName"}>{name}</span>
-    <div style={{display: "flex", justifyContent: "space-between", flexDirection: "row", alignItems: "center", gap:"1em"}}>
+    <div className="customSubmissionContainer" >
       {image && <img src={IMG_PATH+image} alt={`${name} submission`}  height={300} className="submissionImage"></img>}
       {message &&<span>{message}</span>}
     </div>

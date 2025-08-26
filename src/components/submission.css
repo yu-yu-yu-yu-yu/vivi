@@ -1,4 +1,4 @@
-.submission{
+.submission {
     padding: .7em .5em;
     margin: .5em;
     background-color: #ffffff47;
@@ -8,8 +8,8 @@
     flex-direction: column;
     border-radius: 30px;
     font-size: 25px;
-    color:black;
-    gap:10px
+    color: black;
+    gap: 10px
 }
 
 .submissionName {
@@ -19,13 +19,34 @@
     border-bottom: 1px solid grey;
 }
 
-.submissionImage{
+.submissionImage {
     align-self: center;
-    max-width: 25vw;
+    display: block;
+    max-width: 400px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
 }
 
-.customSubmission{
+.customSubmission {
     width: 50%;
     align-content: center;
-    box-shadow: 0 0 30px 5px #e0c948
+    box-shadow: 0 0 30px 5px #e0c948;
+}
+
+.customSubmissionContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em
+}
+
+@media (max-width: 800px) {
+    .customSubmissionContainer {
+        flex-direction: column;
+    }
+    .customSubmission{
+        width: initial;
+    }
 }
