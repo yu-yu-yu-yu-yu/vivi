@@ -1,6 +1,6 @@
 import type {TSubmission} from "../models/TSubmission.ts";
 import Submission from "./submission.tsx";
-import "./SubmissionList.css"
+import "./submissionList.css"
 import Masonry from "react-responsive-masonry";
 
 
