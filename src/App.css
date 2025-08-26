@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-    background-image: url("./Background.jpg");
+    background-image: url('./Background.jpg');
 }
 
  #root{
     display: flex;
     flex-direction: column;
      padding: 50px;
-     backdrop-filter: blur(1.4vh);
+     backdrop-filter: blur(2rem);
+     width:100%
 
  }

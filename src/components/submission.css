@@ -1,16 +1,31 @@
 .submission{
-    padding: .5em;
+    padding: .7em .5em;
     margin: .5em;
-    background-color: #ffffff37;
+    background-color: #ffffff47;
     display: flex;
+    align-self: center;
+    font-family: "Anonymous Pro", monospace;
     flex-direction: column;
-    max-width: 600px;
-    max-height: 800px;
     border-radius: 30px;
+    font-size: 25px;
+    color:black;
+    gap:10px
 }
 
 .submissionName {
+    font-weight: bold;
     font-size: 50px;
     text-align: center;
+    border-bottom: 1px solid grey;
+}
 
+.submissionImage{
+    align-self: center;
+    max-width: 25vw;
+}
+
+.customSubmission{
+    width: 50%;
+    align-content: center;
+    box-shadow: 0 0 30px 5px #e0c948
 }
