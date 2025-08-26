@@ -1,0 +1,11 @@
+.creditsPage {
+    color:black;
+    height: 100vh;
+    font-family: "Pacifico", "serif";
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

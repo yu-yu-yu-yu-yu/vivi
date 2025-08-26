@@ -1,0 +1,17 @@
+.creditsButton {
+    font-family: Anonymous Pro, serif;
+    background-color: #FEACFF;
+    padding: 7px 5px;
+    border: 1px solid grey;
+    text-align: center;
+    vertical-align: middle;
+    height:30px;
+    border-radius: 10px;
+    .active {
+        background-color: #843DFF;
+    }
+}
+.creditsButton:hover {
+    background-color: #BB93FF;
+    cursor: pointer;
+}
