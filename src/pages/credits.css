@@ -3,6 +3,7 @@
     height: 100vh;
     font-family: "Pacifico", "serif";
     font-weight: normal;
+    font-size: larger;
     display: flex;
     flex-direction: column;
     justify-content: center;

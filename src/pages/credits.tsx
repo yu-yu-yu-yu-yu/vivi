@@ -13,14 +13,13 @@ const credits = ({openCredits}: {openCredits: () => void}) => {
     <div>
       <b>Project Director</b> - <a href="https://x.com/yumihoshio">ゆみ</a><br/>
       <b>Programmer</b> - yuyu<br/>
-      <b>Translator</b> - vonPeterhof, kana_, salixor, nikski<br/>
-      <b>Project Moderator</b> - <a href="https://x.com/NikskiChef">nikski</a>, <a href="https://www.twitter.com/holowiggly">wiggly</a>, minihornet<br/>
+      <b>Translator</b> - vonPeterhof, kana_, salixor, <a href="https://x.com/NikskiChef">nikski</a>,<br/>
+      <b>Project Moderator</b> - <a href="https://x.com/NikskiChef">nikski</a>, <a href="https://www.twitter.com/holowiggly">wiggly</a>, <a href="https://x.com/Minihornet">minihornet</a><br/>
     </div>
 
     <div>
-    <h3>Credit to...</h3><br/>
-    Image Background: <a href="https://x.com/kikiraravivi/status/1854370054529577351/photo/1">https://x.com/kikiraravivi/status/1854370054529577351/photo/1</a><br/>
-    Whatever else we used: link here
+    <h3>extra credits</h3><br/>
+     <a href="https://x.com/kikiraravivi/status/1854370054529577351/photo/1">Image Background</a><br/>
     </div>
   </div>
 }

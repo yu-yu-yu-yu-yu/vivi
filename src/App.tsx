@@ -9,11 +9,13 @@ function App() {
   const toggleCredits = () => { setCreditsOpen(!creditsOpen)}
 
   return (
+    <>
     creditsOpen
       ? <Credits openCredits={toggleCredits}/>
       : <>
         <Header openCredits={toggleCredits}/>
         <Submissions/>
+        </>
     </>
   )
 }
