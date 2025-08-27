@@ -1,12 +1,6 @@
 import "./credits.css"
-import CreditsButton from "../components/creditsButton.tsx";
-const credits = ({openCredits}: {openCredits: () => void}) => {
+const credits = () => {
   return <div className="creditsPage" >
-    <div style={{    position: "absolute",
-      top: "5px",
-      left: "5px"}}>
-      <CreditsButton toggleCredits={openCredits}/>
-    </div>
     <div style={{}}> <h1 >CREDITS</h1></div>
     <h3>Thank you to...</h3>
 

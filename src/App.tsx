@@ -3,6 +3,7 @@ import Submissions from "./pages/submissions.tsx";
 import Header from "./components/Header.tsx";
 import Credits from "./pages/credits.tsx";
 import {useState} from "react";
+import Navbar from "./components/navbar.tsx";
 
 function App() {
   const [creditsOpen, setCreditsOpen] = useState(false)
@@ -10,12 +11,15 @@ function App() {
 
   return (
     <>
-    creditsOpen
-      ? <Credits openCredits={toggleCredits}/>
-      : <>
-        <Header openCredits={toggleCredits}/>
-        <Submissions/>
-        </>
+      <Navbar openCredits={toggleCredits}/>
+      {
+        creditsOpen
+        ? <Credits />
+        : <>
+          <Header />
+          <Submissions/>
+          </>
+      }
     </>
   )
 }
