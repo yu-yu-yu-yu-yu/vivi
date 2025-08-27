@@ -49,4 +49,10 @@
     .customSubmission{
         width: initial;
     }
+    .submissionName {
+        font-size: 30px;
+    }
+    .submissionImage{
+        max-width: 300px;
+    }
 }
